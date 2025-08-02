@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml" fx:controller="sample.CalculatorController" hgap="10" vgap="10" alignment="center">
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10" />
+    </padding>
+
+    <TextField fx:id="display" GridPane.columnSpan="4" editable="false" />
+
+    <!-- Number Buttons -->
+    <Button text="7" onAction="#processNumber" GridPane.rowIndex="1" />
+    <Button text="8" onAction="#processNumber" GridPane.rowIndex="1" GridPane.columnIndex="1" />
+    <Button text="9" onAction="#processNumber" GridPane.rowIndex="1" GridPane.columnIndex="2" />
+    <Button text="4" onAction="#processNumber" GridPane.rowIndex="2" />
+    <Button text="5" onAction="#processNumber" GridPane.rowIndex="2" GridPane.columnIndex="1" />
+    <Button text="6" onAction="#processNumber" GridPane.rowIndex="2" GridPane.columnIndex="2" />
+    <Button text="1" onAction="#processNumber" GridPane.rowIndex="3" />
+    <Button text="2" onAction="#processNumber" GridPane.rowIndex="3" GridPane.columnIndex="1" />
+    <Button text="3" onAction="#processNumber" GridPane.rowIndex="3" GridPane.columnIndex="2" />
+    <Button text="0" onAction="#processNumber" GridPane.rowIndex="4" GridPane.columnIndex="1" />
+
+    <!-- Operators -->
+    <Button text="+" onAction="#processOperator" GridPane.rowIndex="1" GridPane.columnIndex="3" />
+    <Button text="-" onAction="#processOperator" GridPane.rowIndex="2" GridPane.columnIndex="3" />
+    <Button text="*" onAction="#processOperator" GridPane.rowIndex="3" GridPane.columnIndex="3" />
+    <Button text="/" onAction="#processOperator" GridPane.rowIndex="4" GridPane.columnIndex="3" />
+    <Button text="=" onAction="#calculateResult" GridPane.rowIndex="4" GridPane.columnIndex="2" />
+    <Button text="C" onAction="#clearDisplay" GridPane.rowIndex="4" GridPane.columnIndex="0" />
+
+    <!-- Back Button -->
+    <Button text="Back" onAction="#goBack" GridPane.rowIndex="5" GridPane.columnSpan="4" />
+</GridPane>
