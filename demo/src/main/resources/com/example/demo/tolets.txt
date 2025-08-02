@@ -1,0 +1,34 @@
+Title: Cozy Apartment
+Description: A fully furnished 2-bedroom apartment with modern amenities.
+Rent: $1200
+Room Details: 2 bedrooms, 1 bathroom, 1 kitchen
+Location: New York, NY
+Username: user1
+
+Title: Spacious Studio
+Description: A spacious studio with great city views.
+Rent: $900
+Room Details: Studio with attached bathroom and kitchen
+Location: San Francisco, CA
+Username: user1
+
+Title: Family Home
+Description: A beautiful 3-bedroom home suitable for families.
+Rent: $1500
+Room Details: 3 bedrooms, 2 bathrooms, 1 living room
+Location: Austin, TX
+Username: user2
+
+Title: Modern Condo
+Description: A luxurious condo in a prime location.
+Rent: $2000
+Room Details: 2 bedrooms, 2 bathrooms, 1 kitchen, 1 living area
+Location: Miami, FL
+Username: user2
+
+Title: Affordable Room
+Description: A single room for students or individuals.
+Rent: $500
+Room Details: 1 bedroom with shared bathroom and kitchen
+Location: Boston, MA
+Username: user1
