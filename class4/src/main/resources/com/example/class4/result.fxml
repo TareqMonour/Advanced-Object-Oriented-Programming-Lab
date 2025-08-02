@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox prefHeight="202.0" prefWidth="600.0">
+         <children>
+            <Label text="Total=">
+               <HBox.margin>
+                  <Insets left="150.0" top="80.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets right="20.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <TextField fx:id="finalresult" prefHeight="34.0" prefWidth="158.0">
+               <HBox.margin>
+                  <Insets top="80.0" />
+               </HBox.margin>
+            </TextField>
+         </children>
+      </HBox>
+      <HBox prefHeight="194.0" prefWidth="600.0">
+         <children>
+            <Label text="Thank you for Purchasing">
+               <HBox.margin>
+                  <Insets left="200.0" top="50.0" />
+               </HBox.margin>
+               <padding>
+                  <Insets right="100.0" top="10.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</VBox>

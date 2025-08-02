@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.class_3.Scene1Controller">
+   <children>
+      <Button layoutX="244.0" layoutY="255.0" mnemonicParsing="false" onAction="#clickMe" prefHeight="75.0" prefWidth="112.0" text="Click Me">
+         <font>
+            <Font name="Bookman Old Style Bold" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="nameInput" layoutX="130.0" layoutY="49.0" prefHeight="25.0" prefWidth="420.0" promptText="Enter Name">
+         <font>
+            <Font name="Bell MT" size="15.0" />
+         </font>
+      </TextField>
+      <Label fx:id="nameLabel" layoutX="14.0" layoutY="54.0" prefHeight="19.0" prefWidth="102.0" text="Name">
+         <font>
+            <Font name="Baskerville Old Face" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="209.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pic.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="384.0" layoutY="255.0" mnemonicParsing="false" onAction="#switchScene2" prefHeight="75.0" prefWidth="112.0" text="Next">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,3 @@
+student,pass1234
+admin,admin123
+user,userpass

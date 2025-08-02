@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.class4.AddDataController">
+   <children>
+      <TextField fx:id="idField" layoutX="23.0" layoutY="44.0" prefHeight="25.0" prefWidth="553.0" />
+      <Label layoutX="23.0" layoutY="27.0" text="ID" />
+      <TextField fx:id="nameField" layoutX="23.0" layoutY="94.0" prefHeight="25.0" prefWidth="553.0" />
+      <Label layoutX="23.0" layoutY="77.0" text="Name" />
+      <TextField fx:id="emailField" layoutX="24.0" layoutY="150.0" prefHeight="25.0" prefWidth="553.0" />
+      <Label layoutX="24.0" layoutY="133.0" text="Email" />
+      <Button layoutX="274.0" layoutY="188.0" mnemonicParsing="false" onAction="#addRecord" text="Save" />
+      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#switchScene2" text="Read" />
+      <Label fx:id="statusLabel" layoutX="152.0" layoutY="213.0" prefHeight="17.0" prefWidth="297.0" />
+      <TextField fx:id="idField2" layoutX="24.0" layoutY="260.0" prefHeight="25.0" prefWidth="553.0" />
+      <Label layoutX="25.0" layoutY="235.0" text="Delete Record " />
+      <Button layoutX="25.0" layoutY="292.0" mnemonicParsing="false" onAction="#deleteRecord" text="Delete" />
+   </children>
+</AnchorPane>
